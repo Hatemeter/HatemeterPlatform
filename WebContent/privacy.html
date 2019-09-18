@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<!--
+* Real - Bootstrap Admin Template
+* @version v2.1.0
+* @link https://coreui.io/pro/
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* License (https://coreui.io/pro/license)
+-->
+
+<html lang="en">
+<head>
+<base href="./">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="description"
+	content="CoreUI - Open Source Bootstrap Admin Template">
+<meta name="author" content="Łukasz Holeczek">
+<meta name="keyword"
+	content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+<title>HATEMETER Platform - Hate speech tool for monitoring,
+	analysing and tackling Anti-Muslim hatred online</title>
+<!-- Icons-->
+<link href="login/vendors/@coreui/icons/css/coreui-icons.min.css"
+	rel="stylesheet">
+<link href="login/vendors/flag-icon-css/css/flag-icon.min.css"
+	rel="stylesheet">
+<link href="login/vendors/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet">
+<link href="login/vendors/simple-line-icons/css/simple-line-icons.css"
+	rel="stylesheet">
+<!-- Main styles for this application-->
+<link href="login/css/style.css" rel="stylesheet">
+<link href="login/vendors/pace-progress/css/pace.min.css"
+	rel="stylesheet">
+</head>
+<!-- dam -->
+<!-- modificato bg pagina con lo style nel body IMMAGINE DIVERSA RISPETTO A LOGIN bg1  -->
+<body class="app flex-row align-items-center"
+	style="background: #000 url(login/img/bg1.png) no-repeat center center;">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="card-group">
+					<div class="card p-4">
+						<div class="card-body">
+
+							<div class="row">
+								<div class="col-8">
+									<img class="navbar-brand-full" src="login/img/brand/logo.svg"
+										width="150" height="" alt="">
+								</div>
+								<div class="col-4 text-right">
+
+									<!-- dam -->
+									<!-- ho lasciato il menu della lingua commentato che non serve adesso pro futuro -->
+									<!--                           <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-gb"></i></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header text-center"><strong>Languages</strong></div>
+            <a class="dropdown-item active" href="#"><i class="flag-icon flag-icon-gb"></i> English</a>
+            <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> Francais</a>
+            <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-it"></i> Italiano</a>
+          </div>
+        </li>
+
+      </ul> -->
+
+									<!-- dam -->
+									<!-- qui diamo la possibilità di logout qualora un utente decidesse di non accettare "Terms and conditions" -->
+									<form action="logout.jsp">
+										<input class="btn btn-sm btn-outline-primary px-4"
+											type="submit" value="Logout" />
+									</form>
+
+								</div>
+
+
+							</div>
+
+							<h3>
+								<br />Data protection and confidentiality policy
+							</h3>
+							<p class="text" style="line-height: 1;">
+								<br /> <br /> <small>This platform and the data
+									collected are intended for the <strong>internal use</strong> of
+									the Hatemeter partners and European Commission only and may <strong>not
+										be distributed externally or reproduced for external
+										distribution</strong> in any form without express written permission of
+									the Scientific Coordinator of the project <strong>University
+										of Trento (IT) </strong> and the Technical Coordinator <strong>Fondazione
+										Bruno Kessler (IT) </strong>, which will be nominated as <strong>Joint
+										Controllers</strong> of Hatemeter data according to an internal
+									document to be signed before the commencement of the pilots
+									(hereinafter also referred to as “Joint Controllers”). <br>
+									During the <strong>first validation of the Hatemeter
+										platform and national pilots</strong> (January-March 2019), we will not
+									process any <strong>personal data</strong> of the users.
+									However, please carefully read point 3 below on the <strong>"Rights
+										of the person concerned"</strong>.
+								</small>
+							<h4>1. Joint controllers</h4>
+							<small>The Joint Controllers are:
+								<ol>
+									<li>Università degli Studi di Trento, with registered
+										office in Trento, via Calepina n. 14, 38122, email:
+										ateneo@unitn.it;</li>
+									<li>Fondazione Bruno Kessler, with registered office in
+										Trento, via Santa Croce n. 77, 38122, email:
+										segr.presidenza@fbk.eu.</li>
+								</ol>
+							</small>
+
+							<p style="line-height: 1;">
+								<small>For contact and specific information regarding
+									the protection of personal data, including the exercise of the
+									rights referred to in item 3, please send an e-mail to:
+									help.hatemeter@unitn.it.</small>
+							</p>
+
+							<h4>2. Contact information for the data protection officer</h4>
+							<p style="line-height: 1;">
+								<small>Both Joint Controllers have designated Data
+									Protection Officers (DPO) pursuant to art. 37 of the
+									Regulation. The DPOs may be reached via the following channels:
+									1) rpd@unitn.it; 2) privacy@fbk.eu.</small>
+							</p>
+
+							<h4>3. Rights of the person concerned</h4>
+							<p style="line-height: 1;">
+								<small>Pursuant to Section III of the GDPR, the person
+									concerned shall be entitled to exercise their right to:
+									<ol style="list-style-type: lower-alpha;">
+										<li>access personal data (the person will therefore has
+											the right to have free information about the personal data
+											held by the Data Controller/Joint Controllers, as well as to
+											obtain a copy thereof in an accessible format);</li>
+										<li>amend data (we shall take care, upon your request, of
+											amending incorrect or inaccurate data, where the data do not
+											express evaluation elements);</li>
+										<li>withdraw consent (if you have consented to the
+											processing of your data, you may withdraw your consent at any
+											time and after you have revoked your consent, your data shall
+											no longer be processed);</li>
+										<li>cancel personal data – right to be forgotten (for
+											example, in case of withdrawal of consent, if there is no
+											other legal basis for data processing);</li>
+										<li>restrict data processing (in certain cases - dispute
+											the accuracy of the data, within the timeframe necessary for
+											verification; dispute the lawfulness of the processing with
+											refusal to the cancellation; necessity of the party concerned
+											to use their defense rights, while they are no longer useful
+											for the purposes of the processing; in the event that the
+											processing has been denied, while the necessary checks are
+											being carried out - the data will be stored in such a manner
+											that they may be restored if need be, but, in the meantime,
+											cannot be consulted by the Data Controller/Joint Controllers
+											if not in relation to the validity of his or her request for
+											restriction);</li>
+										<li>deny consent to the processing due to legitimate
+											reasons (under certain circumstances, he/she may in any case
+											object to the processing of data, and in any case it may
+											refuse processing for direct marketing purposes);
+										<li>data portability (upon request of the person
+											concerned, the data shall be transmitted to the indicated
+											subject in such a format that they can be easily consulted
+											and used);</li>
+										<li>advance a dispute to the Supervisory Authority
+											(Privacy Authority).</li>
+									</ol>
+								</small>
+							</p>
+
+
+							<h4>4. Social networks</h4>
+							<p style="line-height: 1;">
+								<small>Fondazione Bruno Kessler (IT) has profiles on
+									different social media in order to collect data for research
+									purposes. We provide links below to the privacy policies of the
+									social media where it has an active profile with regard to
+									project Hatemeter: <a href="https://twitter.com/en/privacy"
+									target="_blank">Twitter</a> and <a
+									href="https://www.facebook.com/policy.php" target="_blank">Facebook</a>.
+								</small>
+							</p>
+
+							</p>
+							<form method="post" action="acceptPrivacyStatement">
+								<div class="form-group row">
+
+									<div class="col-md-9 col-form-label">
+										<br>
+										<div class="form-check checkbox">
+											<input class="form-check-input" id="terms" type="checkbox"
+												required name="terms"> <label class="form-check-label"
+												for="terms" >I accept</label>
+										</div><!-- 
+										<div class="form-check checkbox">
+											<input class="form-check-input" id="check2" type="checkbox"
+												value=""> <label class="form-check-label"
+												for="check2">Do not show this message again</label>
+										</div> -->
+										<br>
+									</div>
+								</div>
+
+
+								<div class="row">
+									<div class="col-12 text-center">
+										<!-- dam -->
+										<!-- due stati per il button, quando viene ceccato "I, accept" attivare il button -->
+										
+
+										<input class="btn btn-sm btn-outline-primary px-4"
+											type="submit"
+											value="Go to the platform" />
+							
+								</div>
+
+								</form>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap and necessary plugins-->
+	<script src="login/vendors/jquery/js/jquery.min.js"></script>
+	<script src="login/vendors/popper.js/js/popper.min.js"></script>
+	<script src="login/vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="login/vendors/pace-progress/js/pace.min.js"></script>
+	<script
+		src="login/vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+	<script src="login/vendors/@coreui/coreui-pro/js/coreui.min.js"></script>
+</body>
+</html>

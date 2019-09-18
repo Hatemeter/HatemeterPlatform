@@ -1,0 +1,85 @@
+#Unigrams
+"JJ", -0.95
+"NN", -0.9
+"NNS", -0.9
+"NNP", -0.9
+#"VBG", -0.9
+
+
+"JJ", "NN", 0
+
+"JJ", "NNP", 0
+"NN","NN" , 0
+"NN","NNP" , 0
+"NNP","NN" , 0
+"NNP","NNNP" , 0
+#"VBG","NN",0
+#"VBG","NNP",0
+#"NN","VBG", 0
+
+
+"PRP", "VBZ", "N", 1
+
+"JJ", "NN", "NN" ,0
+"JJ","NNP","NN",0
+"JJ","NN","NNP",0
+"JJ", "JJ", "NN" , 0
+"JJ", "JJ", "NNP" ,0
+"JJ","NN","VBG",0
+
+#"V", "CJ", "V", 1
+#"V", "DT", "N", 1
+#"VV", "TO0", "VVI", 1
+
+
+
+"NN", "NN", "NN" ,0
+"NNP", "NN", "NN" ,0
+"NN", "NNP", "NN" ,0
+"NN", "NN", "NNP" ,0
+"NNP", "NNP", "NNP" ,0
+"N", "IN", "N", 1
+"N", "POS", "N", 1
+
+"JJ","JJ","JJ","NN",1.9
+"JJ","JJ","JJ","NNP",1.9
+"JJ","NNP","NN","NN",1.9
+"JJ","NN","NNP","NN",1.9
+"JJ","NN","NN","NNP",1.9
+"JJ","NN","NN","NN",1.9
+
+"NN","NN","NN","NN",1.9
+"NNP","NN","NN","NN",1.9
+"NN","NNP","NN","NN",1.9
+"NN","NN","NNP","NN",1.9
+"NN","NN","NN","NNP",1.9
+
+"JJ", "IN", "DT", "N", 1
+"N", "IN", "JJ", "N", 1
+"N", "IN", "N", "N", 1
+"N", "IN", "N", "N", 1
+
+#"V", "N", "PR", "N", 1
+#"VV", "DT", "JJ", "N", 1
+#"V", "TO0", "V", "V", 1
+#"V", "IN", "DT", "N", 1
+#"V", "XX0", "TO0", "V", 1
+#"V", "TO0", "V", "JJ", 1
+#"V", "XX0", "DT", "N", 1
+
+"JJ","JJ","JJ","NN","NN",1.5
+"JJ","JJ","JJ","NNP","NN",1.5
+"JJ","JJ","JJ","NN","NNP",1.5
+"JJ","JJ","NN","NN","NN",1.5
+"JJ","JJ","NNP","NN","NN",1.5
+"JJ","JJ","NN","NNP","NN",1.5
+"JJ","JJ","NN","NN","NNP",1.5
+"JJ","NN","NN","NN","NN",1.5
+"JJ","NNP","NN","NN","NN",1.5
+"JJ","NN","NNP","NN","NN",1.5
+"JJ","NN","NN","NNP","NN",1.5
+"JJ","NN","NN","NN","NNP",1.5
+
+"JJ","NN","VDB,"JJ","NN","NN",0
+"JJ","NN","IN","RB","JJ","NN",0
+

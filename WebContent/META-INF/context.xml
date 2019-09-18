@@ -1,0 +1,11 @@
+<Context>
+    <!-- Simple String parameter -->
+ <Realm className="org.apache.catalina.realm.JDBCRealm"
+						digest="MD5"
+						driverName="com.mysql.cj.jdbc.Driver"
+						connectionURL="jdbc:mysql://localhost:3306/HateMeter?serverTimezone=UTC"
+						connectionName="" connectionPassword=""
+						userTable="users" userNameCol="user_name"
+						userCredCol="user_pass" userRoleTable="user_roles"
+						roleNameCol="role_name" /> 
+</Context>
